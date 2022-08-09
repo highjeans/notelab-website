@@ -1,6 +1,6 @@
 import {Container, Row, Col, Button, Card, Text, Image, Spacer} from '@nextui-org/react';
 import Head from "next/head";
-import {Menu} from "./menu"
+import {Menu} from "/components/menu"
 import "@fontsource/mochiy-pop-p-one"
 
 export default function App() {

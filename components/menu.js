@@ -14,7 +14,7 @@ const menu = [
     },
     {
         text: "Donate",
-        link: "https://www.paypal.com/donate/?business=87CAQCZSEL5C6&no_recurring=0&currency_code=USD",
+        link: "https://paypal.me/notelab",
         newtab: true
     }
 ];

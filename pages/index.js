@@ -12,7 +12,7 @@ export default function App() {
                         name="description"
                         content="Website for the NoteLab Extension"
                     />
-                    <link rel="icon" href="logo.png" />
+                    <link rel="icon" href="/logo.png" />
                 </Head>
 
                 <Button.Group css={{"padding-top": "20px"}}>

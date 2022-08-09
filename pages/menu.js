@@ -1,28 +1,27 @@
 import React from "react";
-import {Button, Card, Col, Link, Text} from "@nextui-org/react";
+import {Button, Text} from "@nextui-org/react";
 
 const menu = [
     {
         text: "Home",
-        link: "/"
-    },
-    {
-        text: "About Us",
-        link: "/about-us"
+        link: "/",
+        newtab: false
     },
     {
         text: "Learn More",
-        link: "/learn-more"
+        link: "https://chrome.google.com/webstore/detail/notelab/geolaeooajdkifdkblgijpfnboegnphb",
+        newtab: true
     },
     {
         text: "Donate",
-        link: "/donate"
+        link: "/donate",
+        newtab: true
     }
 ];
 
 export const Menu = () => {
     return menu.map(item => (
-        <Button css={{background: "#eab94a"}}>
+        <Button as="a" href={item.link} target={item.newtab ? "_blank" : ""} css={{background: "#eab94a"}}>
             <Text color="white">
                 {item.text}
             </Text>

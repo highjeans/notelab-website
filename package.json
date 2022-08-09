@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fontsource/mochiy-pop-p-one": "^4.5.7",
+    "@fontsource/mochiy-pop-p-one": "^4.5.8",
     "@nextui-org/react": "^1.0.0-beta.9",
     "next": "^12.2.3",
     "react": "^18.2.0",

@@ -19,6 +19,7 @@ export const links = {
     "mailto:notelab2022@gmail.com?subject=Bug Report&body=Please describe the bug you encountered:",
   requestFeature:
     "mailto:notelab2022@gmail.com?subject=Feature Request&body=Please describe the feature you'd like to see:",
+  latestFeatureShowcase: "https://www.youtube.com/watch?v=O21IualkOSg",
 };
 
 export const navItems = [

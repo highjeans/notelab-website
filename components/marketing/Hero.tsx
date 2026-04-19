@@ -28,7 +28,7 @@ export function Hero() {
               Add to Chrome
             </a>
             <a
-              href="#features" // TODO change to youtube video
+              href={links.latestFeatureShowcase}
               className="inline-flex w-full items-center justify-center rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-800 transition hover:border-slate-500 sm:w-auto dark:border-slate-500 dark:text-slate-100 dark:hover:border-slate-300"
             >
               See what&apos;s new in 2026

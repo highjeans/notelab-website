@@ -20,6 +20,10 @@ export const metadata: Metadata = {
       "Capture text and media, auto-save notes, and export to Word with NoteLab.",
     url: "https://notelab.vercel.app",
     siteName: "NoteLab",
+    images: {
+      url: "https://notelab.vercel.app/logo.png",
+      alt: "NoteLab Logo",
+    },
     type: "website",
   },
 };

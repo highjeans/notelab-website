@@ -12,7 +12,7 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   title: "NoteLab | Chrome Note Taking Extension",
   description:
-    "Capture, organize, and export educational notes faster with NoteLab for Chrome.",
+    "Capture, organize, and export educational notes faster with NoteLab for Chrome.\n\nSee the latest updates - https://youtu.be/O21IualkOSg",
   metadataBase: new URL("https://notelab.vercel.app"),
   openGraph: {
     title: "NoteLab | Chrome Note Taking Extension",
